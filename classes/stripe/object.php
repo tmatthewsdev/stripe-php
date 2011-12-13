@@ -2,7 +2,7 @@
 
 namespace Stripe;
 
-class Stripe_Object implements ArrayAccess
+class Stripe_Object implements \ArrayAccess
 {
   protected static $_permanentAttributes;
   protected static $_ignoredAttributes;
