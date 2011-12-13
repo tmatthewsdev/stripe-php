@@ -1,5 +1,7 @@
 <?php
 
+namespace Stripe;
+
 class Stripe_ApiRequestor
 {
   public $apiKey;

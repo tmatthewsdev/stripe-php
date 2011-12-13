@@ -1,5 +1,7 @@
 <?php
 
+namespace Stripe;
+
 class Stripe_Util_Set
 {
   private $_elts;

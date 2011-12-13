@@ -1,5 +1,7 @@
 <?php
 
+namespace Stripe;
+
 abstract class Stripe_ApiResource extends Stripe_Object
 {
   protected function _ident()

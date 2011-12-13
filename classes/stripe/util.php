@@ -1,5 +1,7 @@
 <?php
 
+namespace Stripe;
+
 abstract class Stripe_Util
 {
   public static function arrayClone($array)

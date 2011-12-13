@@ -1,5 +1,7 @@
 <?php
 
+namespace Stripe;
+
 class Stripe_Object implements ArrayAccess
 {
   protected static $_permanentAttributes;

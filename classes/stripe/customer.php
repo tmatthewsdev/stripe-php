@@ -1,5 +1,7 @@
 <?php
 
+namespace Stripe;
+
 class Stripe_Customer extends Stripe_ApiResource
 {
   public static function constructFrom($values, $apiKey=null)
