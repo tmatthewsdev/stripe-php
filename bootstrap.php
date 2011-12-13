@@ -11,6 +11,8 @@
  * @link       
  */
 
+Autoloader::add_core_namespace('Stripe');
+
 Autoloader::add_classes(array(
 	
 	'Stripe\\Stripe'                     => __DIR__.'/classes/stripe.php',
